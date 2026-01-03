@@ -1,9 +1,3 @@
-<div align="center">
-
-# GABESP
-
-</div>
-
 > [!WARNING]
 > To run this project, CMake, Python needs to be installed <br>
 
@@ -33,5 +27,7 @@ Show data
 ```bash
 idf.py monitor
 ```
+
 ## Dependencies
 - [esp-idf](https://github.com/espressif/esp-idf.git)
+- [hd44780](https://github.com/esp-idf-lib/hd44780)
