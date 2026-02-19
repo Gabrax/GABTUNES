@@ -1,33 +1,24 @@
-> [!WARNING]
-> To run this project, CMake, Python needs to be installed <br>
+> [!IMPORTANT]
+> All rights to the assets belong to their respective authors.
 
-## Setup
-```bash
-git clone --recursive https://github.com/espressif/esp-idf.git
-cd esp-idf
-install.bat / install.sh
-```
-In main project folder, create a ESP shell env in terminal
-```bash
-export.bat / export.sh
-```
-Set target
-```bash
-idf.py set-target <target>
-```
-Build
-```bash
-idf.py build
-```
-Run project
-```bash
-idf.py -p PORT flash
-```
-Show data
-```bash
-idf.py monitor
+```console
+python -m venv venv
+\env\Scripts\activate or source venv/bin/activate
+pip install -r dependencies.py
+
 ```
 
+<div align="center">
+  
 ## Dependencies
-- [esp-idf](https://github.com/espressif/esp-idf.git)
-- [hd44780](https://github.com/esp-idf-lib/hd44780)
+
+</div>
+
+<div align="center">
+
+<p>
+<a href="https://flet.dev/">Flet</a> •
+<a href="https://www.djangoproject.com/">Django</a>
+</p>
+
+</div>
